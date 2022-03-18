@@ -22,7 +22,7 @@ public class Extractor {
             file2.set(i, file2.get(i).replace("010","2"));
             file2.set(i, file2.get(i).replace("011","3"));
             file2.set(i, file2.get(i).replace("110","4"));
-                System.out.println( "golden: "+file2.get(i));
+                System.out.println(" trace: "+file1.get(i) + "\n" + "golden: "+file2.get(i));
                 System.out.println();
             //}
         }
